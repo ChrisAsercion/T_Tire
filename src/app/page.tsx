@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -5,8 +7,8 @@ import Link from 'next/link';
 import styles from '/styles/Home.module.css';
 import '/styles/Header.css';
 // import React, { createContext } from 'react';
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 // const Header = () => {
 //   return (
@@ -41,15 +43,13 @@ export default function Home() {
   Tire, we consider you to be part of the family!
           </p>
 
-        
-            
-          {/* const MyCarousel = () => (
+
+
   <Swiper spaceBetween={50} slidesPerView={1} pagination={{ clickable: true }}>
     <SwiperSlide><img src="/images/Goodyear Logo.png" alt="Goodyear" /></SwiperSlide>
     <SwiperSlide><img src="/images/Cooper Tire Logo.png" alt="Cooper Tire" /></SwiperSlide>
     <SwiperSlide><img src="/images/Toyo Tire.webp" alt="Toyo" /></SwiperSlide>
   </Swiper>
-); */}
 
 
           <div className={styles.cardContainer}>
